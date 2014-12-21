@@ -1,0 +1,468 @@
+/* Header */
+.clear {
+    clear: both;
+}
+
+.main-heading {
+}
+
+.poc-heading {
+    background: #919595;
+    padding: 5px;
+}
+
+.poc-heading h3 {
+    margin: 0;
+    padding: 0;
+    font: normal 26px/30px Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+/* poc-content */
+.poc-content {
+    padding: 10px;
+    background: #ebebeb;
+}
+
+.poc-inner {
+    background: #fafbfb;
+    padding: 0 5px 5px 5px;
+    border: 1px solid #d1d3d3;
+}
+
+.panel-title span {
+    color: #0d9f6e;
+    font: normal 19px/19px Arial, Helvetica, sans-serif;
+}
+
+/* Accordion */
+.right-Bnts ul {
+    margin: 0;
+    padding: 0;
+}
+
+.right-Bnts ul li {
+    float: left;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.right-Bnts ul li:nth-child(2) {
+    background: url(../images/divider.png) no-repeat 0 0;
+    height: 20px;
+}
+
+.right-Bnts ul li a.accordion1 {
+    background: url(../images/minus-icon-hover.png) no-repeat left 0;
+    width: 20px;
+    height: 20px;
+    display: block;
+    outline: none 0 !important;
+}
+
+.right-Bnts ul li a.accordion1:hover {
+    background-position: right top;
+    text-decoration: none;
+}
+
+.right-Bnts ul li a.collapsed {
+    background: url(../images/add-icon-hover.png) no-repeat left top;
+    width: 20px;
+}
+
+.right-Bnts ul li a:hover.collapsed {
+    background-position: right top;
+}
+
+.right-Bnts ul li a.toggled {
+    background: url(../images/summary-icon-hover.png) no-repeat left top;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.right-Bnts ul li a.toggled:hover {
+    background-position: right top;
+    text-decoration: none;
+}
+
+.note-inner .pannal-tittle {
+    margin: 10px 0;
+    color: #1b333d;
+    font-family: Helvetica, sans-serif;
+}
+
+.note-inner .pannal-note {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #fff;
+    border-bottom: 1px solid #ececec;
+}
+
+.note-inner .pannal-tittle > span:nth-child(2) {
+    display: block;
+    text-align: left;
+    width: 10%;
+}
+
+.pannal-note > span:nth-child(2) {
+    display: block;
+    text-align: left;
+    width: 12%;
+}
+
+.cor-icon {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    background: url(../images/close-icon-dark.png) no-repeat top right;
+}
+
+.panel-body p {
+    font: normal 24px/24px Helvetica, sans-serif;
+    color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+}
+
+/* Form Pannal */
+.create-edit {
+    float: left;
+    margin-right: 35px;
+    width: 160px;
+}
+
+.title-form {
+    float: left;
+    width: 880px;
+}
+
+.title-form input {
+    width: 275px;
+    padding: 10px 5px;
+    background: #fafbfb;
+    color: #666b6d;
+    -moz-box-shadow: inset 0 0 3px rgba(71, 78, 79, 0.7);
+    -webkit-box-shadow: inset 0 0 3px rgba(71, 78, 79, 0.7);
+    box-shadow: inset 0 0 3px rgba(71, 78, 79, 0.7);
+    border: 0;
+}
+
+.title-form textarea {
+    width: 775px;
+    padding: 10px 5px;
+    background: #fafbfb;
+    color: #666b6d;
+    -moz-box-shadow: inset 0 0 3px rgba(71, 78, 79, 0.7);
+    -webkit-box-shadow: inset 0 0 3px rgba(71, 78, 79, 0.7);
+    box-shadow: inset 0 0 3px rgba(71, 78, 79, 0.7);
+    border: 0;
+    min-height: 100px;
+}
+
+.title-form label, .title-form span {
+    color: #f1f1f1;
+    font: normal 14px/15px Helvetica, sans-serif;
+}
+
+.title-input {
+    float: left;
+    width: 275px;
+    margin-bottom: 30px;
+}
+
+.edit-form {
+    float: left;
+    margin-left: 100px;
+}
+
+.editable-btn {
+    float: left;
+    margin-top: 30px;
+}
+
+.check-btn {
+    float: left;
+    width: 100px;
+}
+
+.check-btn > input {
+    margin-left: 25px !important;
+    margin-top: 34px !important;
+    width: 10px;
+}
+
+.check-btn > label {
+    margin-left: 5px;
+}
+
+.title-textarea a {
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.title-textarea button {
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+/* Summary Form */
+.right-Bnts {
+    position: relative;
+    float: right;
+}
+
+.summary-form {
+    background: none repeat scroll 0 0 #d5e7f1;
+    position: absolute;
+    right: -3px;
+    top: -8px;
+    width: 350px;
+    display: none;
+    z-index: 9999;
+}
+
+.summary-title {
+    background: #eaf3f8;
+    padding: 1px 5px;
+}
+
+.summary-title h3 {
+    color: #919595;
+    font: 400 28px/28px Helvetica, sans-serif;
+    margin: 0;
+}
+
+#toggled-show {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background: url(../images/close-icon-light.png) no-repeat top right;
+}
+
+.summary-content {
+    padding: 5px;
+}
+
+.sum-left, .sub-right {
+    float: left;
+}
+
+.sum-left {
+    margin-right: 25px;
+}
+
+.sum-left h3 {
+    color: #0588ac;
+    font: normal 135px/135px Helvetica, sans-serif;
+    margin: 0;
+}
+
+.sum-left h3 span {
+    color: #474e4f;
+    font: normal 25px/20px Helvetica, sans-serif;
+}
+
+.sub-right p, .sub-right span {
+    font: 300 18px/12px Helvetica, sans-serif;
+}
+
+.sub-right p {
+    color: #474e4f;
+    margin: 0 0 8px 0;
+}
+
+.sub-right span {
+    color: #0087af;
+}
+
+.time-up {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+@media (width: 1024px) {
+    .pannal-note > span:nth-child(2) {
+        width: 13%;
+    }
+
+    .note-inner .pannal-tittle > span:nth-child(2) {
+        width: 11%;
+    }
+}
+
+@media (width: 800px) {
+    .title-form textarea {
+        width: 575px;
+    }
+
+    .pannal-note > span:nth-child(2) {
+        width: 15%;
+    }
+
+    .note-inner .pannal-tittle > span:nth-child(2) {
+        width: 15%;
+    }
+}
+
+@media (width: 768px) {
+    .pannal-note > span:nth-child(2) {
+        width: 16%;
+    }
+
+    .note-inner .pannal-tittle > span:nth-child(2) {
+        width: 16%;
+    }
+
+    .title-form textarea {
+        width: 575px;
+    }
+}
+
+@media (width: 640px) {
+    .pannal-note > span:nth-child(2) {
+        width: 20%;
+    }
+
+    .note-inner .pannal-tittle > span:nth-child(2) {
+        width: 20%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .title-input > input {
+        width: 100%;
+    }
+
+    .title-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .title-textarea textarea {
+        width: 100%;
+    }
+
+    .title-form {
+        width: 100%;
+    }
+
+    .edit-form {
+        margin-left: 0;
+    }
+
+    .editable-btn {
+        margin-top: 0;
+    }
+
+    .check-btn > input {
+        margin-left: 25px !important;
+        margin-top: 0 !important;
+    }
+
+    .main-form {
+        margin-bottom: 30px;
+    }
+
+    .title-textarea a {
+        float: right;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .create-edit {
+        margin-bottom: 20px;
+    }
+}
+
+@media (width: 480px) {
+    .pannal-note > span:nth-child(2) {
+        width: 25%;
+    }
+
+    .note-inner .pannal-tittle > span:nth-child(2) {
+        width: 25%;
+    }
+}
+
+@media (width: 360px) {
+    body {
+        font-size: 12px !important;
+    }
+
+    .note-inner .pannal-tittle > span:nth-child(2) {
+        width: 34%;
+    }
+
+    .pannal-note > span:nth-child(2) {
+        width: 34%;
+    }
+}
+
+@media (width: 320px) {
+    body {
+        font-size: 11px !important;
+    }
+
+    .note-inner .pannal-tittle > span:nth-child(2) {
+        width: 34%;
+    }
+
+    .pannal-note > span:nth-child(2) {
+        width: 34%;
+    }
+
+    .summary-form {
+        width: 275px;
+    }
+
+    .sub-right p, .sub-right span {
+        font: 300 16px/12px Helvetica, sans-serif;
+    }
+
+    .sum-left h3 {
+        font: 90px/135px Helvetica, sans-serif;
+    }
+
+    .summary-title h3 {
+        font: 400 24px/28px Helvetica, sans-serif;
+    }
+}
+
+.error-message {
+    color: #a94442 !important;
+}
+
+[ng-cloak] {
+    display: none;
+}
+
+.form-group .error-message {
+    display: none;
+}
+
+.form-group.has-error .error-message {
+    display: block;
+}
+
+.title {
+    cursor: pointer;
+}
+
+.pannal-note {
+    cursor: pointer;
+}
+
+.pannal-note:hover {
+    background-color: #eee;
+}
+
+.pannal-tittle span {
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Notes",
+    "version": "0.0.1",
+    "description": "Notes",
+    "dependencies": {
+        "body-parser": "~1.0.0",
+        "ejs": "~0.8.5",
+        "express": "~4.0.0",
+        "method-override": "~1.0.0",
+        "morgan": "~1.0.0",
+        "pg": "^4.1.0"
+    }
+}

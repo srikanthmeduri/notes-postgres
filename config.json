@@ -1,0 +1,12 @@
+{
+    "db_config": {
+        "host": "localhost",
+        "port": "5432",
+        "dbName": "",
+        "uName": "",
+        "pwd": ""
+    },
+    "server_config": {
+        "port": "3000"
+    }
+}
